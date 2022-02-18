@@ -1,0 +1,99 @@
+*{
+       box-sizing: border-box;
+    }
+ 
+    body {
+    background-color: #eaeaea;
+}
+
+    h1{
+        font-size: 30px;
+        word-break: break-all;
+    }
+    .main{
+        max-width: 3000px;
+        margin: auto;
+        padding-left: 48px;
+        padding-top: 15px;
+    }
+
+    .column{
+        float: left;
+        width: 20%;
+    }
+
+
+    @media screen and (max-width:900px) {
+        .column{
+            width: 50%;
+        }
+        
+    }
+    
+    @media screen and (max-width:600px) {
+        .column{
+            width: 100%;
+        }
+        
+    }
+    .heading-content {
+        position: absolute;
+        /* margin-left: 20%; */
+        padding-left: 5%;
+        top: 5%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #sobreWesley-content {
+        padding-left: 45px;
+        padding-right: 5%;
+    }
+
+    #formacao-IF {
+        padding-bottom: 2em;
+    }
+
+    .formacao-image {
+    /* border: 3px solid #ef9aec; */
+    border-right: 3px solid #b3b3b3ab;
+    position: relative;
+    /* width: 50%; */
+    }
+
+    .academica-image {
+    opacity: 1;
+    width: 90%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    }
+
+    #contato-content {
+    margin: 2%;
+    row-gap: 3rem;
+    }
+
+    #contato-methods {
+    /* display: flex; */
+    margin-bottom: 2em;
+    }
+
+    .contato-icone {
+    font-size: 1.8rem;
+    vertical-align: middle;
+    color: var(--first-color);
+    margin-right: var(--h3-font-size);
+    }
+
+    #contato-facebook {
+    margin-bottom: 3%;
+    }
+
+    #contato-linkedin {
+    margin-bottom: 3%;
+    }
+
+    #contato-instagram {
+    margin-bottom: 3%;
+    }
